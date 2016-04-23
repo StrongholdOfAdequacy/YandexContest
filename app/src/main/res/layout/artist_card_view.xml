@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="8dp"
+    android:clipToPadding="false">
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/artist_cardview"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_width="344dp"
+        android:layout_height="136dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardBackgroundColor="#fff"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/artist_thumbnail"
+                android:layout_width="136dp"
+                android:layout_height="136dp"
+                android:background="@drawable/photo_dummy"
+                android:contentDescription="Lolak" />
+            <LinearLayout
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="136dp"
+                android:orientation="vertical">
+                <ru.bonsystems.yandexcontest.widgets.ExtendedTextView
+                    android:id="@+id/artist_name"
+                    android:text="Robin shulz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="24sp"
+                    android:textColor="#ff000000"
+                    card_view:typeface="fonts/Roboto-Light.ttf"/>
+                <ru.bonsystems.yandexcontest.widgets.ExtendedTextView
+                    android:id="@+id/artist_genres"
+                    android:text="electronics, dance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#57000000"
+                    card_view:typeface="fonts/Roboto-Regular.ttf"/>
+                <ru.bonsystems.yandexcontest.widgets.ExtendedTextView
+                    android:id="@+id/artist_stats"
+                    android:text="123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#57000000"
+                    card_view:typeface="fonts/Roboto-Regular.ttf"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

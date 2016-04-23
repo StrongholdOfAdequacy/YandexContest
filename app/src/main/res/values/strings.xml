@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yandex Contest</string>
+    <string name="yandex_get_artists_url">http://cache-default05f.cdn.yandex.net/download.cdn.yandex.net/mobilization-2016/artists.json</string>
+    <string name="label_artists">Исполнители</string>
+    <string name="toolbar_behavior">ru.bonsystems.yandexcontest.widgets.ToolbarBehavior</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Lorem ipsum dolor sit amet</string>
+    <string name="artists_connection_error_message">Не удалось подключиться к серверу</string>
+    <string name="artists_connection_error_try_button_text">Повторить попытку</string>
+    <string name="artist_details_header_biography">Биография</string>
+    <string name="artist_description_link_button_text">На сайт исполнителя</string>
+    <string name="artist_tracks1">треков</string>
+    <string name="artist_albums1">альбомов</string>
+</resources>

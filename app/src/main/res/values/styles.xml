@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/AppTheme.ButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.ButtonStyle" parent="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="AppTheme.RaisedButton" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="artist_description_frame_width">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="artist_description_toolbar_height">
+        <item name="android:layout_height">360dp</item>
+    </style>
+
+</resources>
